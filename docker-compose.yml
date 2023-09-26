@@ -5,7 +5,7 @@ services:
     container_name: ors-app
     image: openrouteservice/openrouteservice:latest
     ports:
-      - "8080:80"
+      - "8080:8080"
     networks:
       - ors_default
     user: "${UID:-0}:${GID:-0}"
